@@ -1,0 +1,31 @@
+.feature{
+    /* border: 1px solid yellow; */
+    display: flex;
+    font-family: 'Manrope';
+
+    /* margin: 10px; */
+    padding: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    /* max-width: 100px; */
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+.feature_heading h3{
+    margin-right: 20px;
+    width: 170px;
+    margin-bottom: 30px;
+}
+.feature p{
+    text-align: justify;
+    color: #81AFDD;
+}
+.feature_bar{
+    margin-bottom: 5px;
+    background-color: white;
+    width: 50px;
+    height: 3px;
+    border-radius: 5px;
+}

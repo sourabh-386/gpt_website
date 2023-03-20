@@ -1,0 +1,38 @@
+.brand {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 75px;
+    color: #81AFDD;
+    /* align-items: center; */
+    flex-wrap: wrap;
+
+    width: 80%;
+    /* color: white; */
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+}
+.brand h2 {
+    margin:3px 10px 3px 10px;
+    /* border: 1px solid white; */
+    cursor: pointer;
+    transition: all .4s ease;
+
+}
+.brand h2:hover{
+    color: white;
+    transform: translate3D(0,-1px,0) scale(1.2);
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:750px){
+    .brand{
+    font-size: 12px;
+    justify-content: center;
+    }
+}
